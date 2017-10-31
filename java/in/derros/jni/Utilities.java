@@ -7,7 +7,8 @@ class Utilities {
     private native int power(int b, int e);
     private native byte[] returnAByteArray();
     private native String stringManipulator(String s, String[] s1);
-    public Utilities() { System.load("/home/alex/Projects/jnitests/build/libjnitests.so"); }
+    // public Utilities() { System.load("/home/alex/Projects/jnitests/build/libjnitests.so"); }
+    public Utilities() { System.load("/Users/wqn/CleanRoom/JNI-By-Examples/build/libjnitests.dylib"); }
 
     public void printUtil() { printMethod();  }
     public boolean boolTest() { return trueFalse();  }
